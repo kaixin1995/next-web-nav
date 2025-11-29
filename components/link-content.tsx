@@ -35,28 +35,10 @@ export function LinkContent() {
           </div>
           <div>
             你可以通过
-            <Link href="mailto:2020583117@qq.com" target="_blank" rel="noreferrer">
+            <Link href="mailto:39454075@qq.com" target="_blank" rel="noreferrer">
               <span className="px-3 underline decoration-wavy hover:text-purple-500">Email</span>
             </Link>
-            或者
-            <Link
-              href="https://weixin.sogou.com/weixin?type=1&query=kk%E6%83%B3%E5%BD%93%E7%A8%8B%E5%BA%8F%E5%91%98"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="px-3 underline decoration-wavy hover:text-purple-500">微信公众号</span>
-            </Link>
             联系我
-          </div>
-          <div>
-            <Image
-              src="/weixin.jpg"
-              className="float-left md:w-1/4"
-              alt="kk想当程序员"
-              width={318}
-              height={318}
-              unoptimized
-            />
           </div>
         </div>
       </div>
