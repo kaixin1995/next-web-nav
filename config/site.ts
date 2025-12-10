@@ -45,7 +45,7 @@ export const NavData: NavData[] = [
       },
       {
         icon: "https://dh.leti.ltd/assets/images/logos/vercel.png",
-        title: "Vercel",
+        title: "Vercel👍",
         desc: "Vercel 提供开发者工具和云基础设施，帮助构建、扩展和保护更快、更个性化的网络应用。",
         link: "https://vercel.com/"
       },
@@ -79,16 +79,10 @@ export const NavData: NavData[] = [
         link: "https://gemini.google.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/images/logos/poe.svg",
-        title: "Poe",
-        desc: "Poe一款由Quora开发的应用程序。该应用程序集成了多种生成式人工智能，可使用户能够便利切换，比较和使用市场上主流的大型语言模型。",
-        link: "https://poe.com/"
-      },
-      {
-        icon: "https://dh.leti.ltd/assets/img_1739871936809.png",
-        title: "perplexity",
-        desc: "一个人工智能助手，旨在为您提供信息、解答问题和帮助您完成各种任务。",
-        link: "https://www.perplexity.ai/"
+        icon: "https://dh.leti.ltd/assets/favicon_1754218571142.svg",
+        title: "DeepSeek - 探索未至之境",
+        desc: "深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
+        link: "https://chat.deepseek.com/"
       },
       {
         icon: "https://dh.leti.ltd/assets/favicon_1759046289851.png",
@@ -101,6 +95,18 @@ export const NavData: NavData[] = [
         title: "v0 by Vercel",
         desc: "Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web.",
         link: "https://v0.app/"
+      },
+      {
+        icon: "https://dh.leti.ltd/assets/images/logos/poe.svg",
+        title: "Poe",
+        desc: "Poe一款由Quora开发的应用程序。该应用程序集成了多种生成式人工智能，可使用户能够便利切换，比较和使用市场上主流的大型语言模型。",
+        link: "https://poe.com/"
+      },
+      {
+        icon: "https://dh.leti.ltd/assets/img_1739871936809.png",
+        title: "perplexity",
+        desc: "一个人工智能助手，旨在为您提供信息、解答问题和帮助您完成各种任务。",
+        link: "https://www.perplexity.ai/"
       }
     ]
   },
@@ -120,16 +126,16 @@ export const NavData: NavData[] = [
         link: "https://www.anthropic.com/claude-code"
       },
       {
+        icon: "https://geminicli.com/icon.png",
+        title: "Gemini CLI",
+        desc: "Query and edit large codebases, generate apps from images or PDFs, and automate complex workflows—all from your terminal with Gemini 3.",
+        link: "https://geminicli.com/"
+      },
+      {
         icon: "https://filecdn.minimax.chat/public/25289820-59cd-4365-9829-a3f32b365451.ico",
         title: "MiniMax M2 & Agent: Ingenious in Simplicity",
         desc: "一款紧凑、快速且性价比超强的模型，专为Coding和Agent而生",
         link: "https://www.minimaxi.com/news/minimax-m2"
-      },
-      {
-        icon: "https://dh.leti.ltd/assets/favicon_1754218571142.svg",
-        title: "DeepSeek - 探索未至之境",
-        desc: "深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
-        link: "https://chat.deepseek.com/"
       },
       {
         icon: "https://dh.leti.ltd/assets/img_1737529713172.png",
@@ -214,7 +220,7 @@ export const NavData: NavData[] = [
       },
       {
         icon: "https://dh.leti.ltd/assets/images/logos/vercel.png",
-        title: "Vercel",
+        title: "Vercel👍",
         desc: "赛博菩萨，慷慨免费额度，一站式 Next.js 部署平台。",
         link: "https://vercel.com/"
       },
@@ -286,6 +292,12 @@ export const NavData: NavData[] = [
         title: "开发者的 Web3 开源大学",
         desc: "WTF Academy 是一个 Web3 开源大学，旨在培训 100,000 名开发者。我们提供高质量的课程和动手项目，帮助您学习、贡献并获得认证。无论您是初学者还是经验丰富的开发者，WTF Academy 为您提供 Web3 世界中必不可少的技能。",
         link: "https://www.wtf.academy/zh"
+      },
+      {
+        icon: "https://www.vim.org/images/vimlogo.svg",
+        title: "简明 Vim 练级攻略",
+        desc: "翻译自《Learn Vim Progressively》，这是给新手最好的VIM练级教程了，没有列举所有的命令，只是列举了那些最有用的命令。非常不错。",
+        link: "https://coolshell.cn/articles/5426.html"
       }
     ]
   },
@@ -294,7 +306,7 @@ export const NavData: NavData[] = [
     items: [
       {
         icon: "https://dh.leti.ltd/assets/favicon_1761725100238.png",
-        title: "Reddit",
+        title: "Reddit👍",
         desc: "Reddit 拥有超过 100,000 个 subreddit 社区，数百万用户在此聚集，讨论各自关心的话题。",
         link: "https://www.reddit.com/"
       },
