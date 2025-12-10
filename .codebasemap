@@ -1,0 +1,1650 @@
+{
+  "metadata": {
+    "version": 1,
+    "root": "/home/alecshan/projects/private/next-web-nav",
+    "createdAt": "2025-12-10T23:07:02.933Z",
+    "updatedAt": "2025-12-10T23:07:02.933Z",
+    "totalFiles": 30
+  },
+  "tree": {
+    "name": "next-web-nav",
+    "type": "dir",
+    "children": [
+      {
+        "name": "app",
+        "type": "dir",
+        "children": [
+          {
+            "name": "layout.tsx",
+            "type": "file"
+          },
+          {
+            "name": "page.tsx",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "components",
+        "type": "dir",
+        "children": [
+          {
+            "name": "site-header",
+            "type": "dir",
+            "children": [
+              {
+                "name": "components",
+                "type": "dir",
+                "children": [
+                  {
+                    "name": "icons.tsx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "setting-dialog.tsx",
+                    "type": "file"
+                  },
+                  {
+                    "name": "theme-toggle.tsx",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "index.tsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "ui",
+            "type": "dir",
+            "children": [
+              {
+                "name": "accordion.tsx",
+                "type": "file"
+              },
+              {
+                "name": "button.tsx",
+                "type": "file"
+              },
+              {
+                "name": "card-hover-effect.tsx",
+                "type": "file"
+              },
+              {
+                "name": "command.tsx",
+                "type": "file"
+              },
+              {
+                "name": "dialog.tsx",
+                "type": "file"
+              },
+              {
+                "name": "input.tsx",
+                "type": "file"
+              },
+              {
+                "name": "label.tsx",
+                "type": "file"
+              },
+              {
+                "name": "scroll-area.tsx",
+                "type": "file"
+              },
+              {
+                "name": "toast.tsx",
+                "type": "file"
+              },
+              {
+                "name": "toaster.tsx",
+                "type": "file"
+              },
+              {
+                "name": "use-toast.ts",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "link-content.tsx",
+            "type": "file"
+          },
+          {
+            "name": "sidebar.tsx",
+            "type": "file"
+          },
+          {
+            "name": "site-footer.tsx",
+            "type": "file"
+          },
+          {
+            "name": "theme-provider.tsx",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "config",
+        "type": "dir",
+        "children": [
+          {
+            "name": "site.ts",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "lib",
+        "type": "dir",
+        "children": [
+          {
+            "name": "fonts.ts",
+            "type": "file"
+          },
+          {
+            "name": "utils.ts",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "stores",
+        "type": "dir",
+        "children": [
+          {
+            "name": "index.ts",
+            "type": "file"
+          },
+          {
+            "name": "useConfigStore.ts",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "types",
+        "type": "dir",
+        "children": [
+          {
+            "name": "nav.ts",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "next-env.d.ts",
+        "type": "file"
+      },
+      {
+        "name": "next.config.ts",
+        "type": "file"
+      },
+      {
+        "name": "tailwind.config.ts",
+        "type": "file"
+      }
+    ]
+  },
+  "nodes": [
+    "app/layout.tsx",
+    "app/page.tsx",
+    "components/link-content.tsx",
+    "components/sidebar.tsx",
+    "components/site-footer.tsx",
+    "components/site-header/components/icons.tsx",
+    "components/site-header/components/setting-dialog.tsx",
+    "components/site-header/components/theme-toggle.tsx",
+    "components/site-header/index.tsx",
+    "components/theme-provider.tsx",
+    "components/ui/accordion.tsx",
+    "components/ui/button.tsx",
+    "components/ui/card-hover-effect.tsx",
+    "components/ui/command.tsx",
+    "components/ui/dialog.tsx",
+    "components/ui/input.tsx",
+    "components/ui/label.tsx",
+    "components/ui/scroll-area.tsx",
+    "components/ui/toast.tsx",
+    "components/ui/toaster.tsx",
+    "components/ui/use-toast.ts",
+    "config/site.ts",
+    "lib/fonts.ts",
+    "lib/utils.ts",
+    "next-env.d.ts",
+    "next.config.ts",
+    "stores/index.ts",
+    "stores/useConfigStore.ts",
+    "tailwind.config.ts",
+    "types/nav.ts"
+  ],
+  "edges": [
+    {
+      "from": "components/site-header/index.tsx",
+      "to": "components/site-header/components/icons.tsx"
+    },
+    {
+      "from": "components/site-header/index.tsx",
+      "to": "components/site-header/components/setting-dialog.tsx"
+    },
+    {
+      "from": "components/site-header/index.tsx",
+      "to": "components/site-header/components/theme-toggle.tsx"
+    },
+    {
+      "from": "stores/index.ts",
+      "to": "stores/useConfigStore.ts"
+    }
+  ],
+  "files": {
+    "app/layout.tsx": {
+      "imports": [
+        {
+          "from": "@/styles/globals.css",
+          "kind": "import"
+        },
+        {
+          "from": "next",
+          "kind": "import",
+          "imported": [
+            "Metadata"
+          ]
+        },
+        {
+          "from": "@/config/site",
+          "kind": "import",
+          "imported": [
+            "siteConfig"
+          ]
+        },
+        {
+          "from": "@/lib/fonts",
+          "kind": "import",
+          "imported": [
+            "fontSans"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        },
+        {
+          "from": "@/components/theme-provider",
+          "kind": "import",
+          "imported": [
+            "ThemeProvider"
+          ]
+        },
+        {
+          "from": "@/components/ui/toaster",
+          "kind": "import",
+          "imported": [
+            "Toaster"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "RootLayout",
+          "params": [
+            {
+              "name": "unknown",
+              "type": "RootLayoutProps"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": [
+        {
+          "name": "metadata",
+          "initKind": "object",
+          "isExported": true,
+          "type": "Metadata"
+        }
+      ]
+    },
+    "app/page.tsx": {
+      "imports": [
+        {
+          "from": "@/components/link-content",
+          "kind": "import",
+          "imported": [
+            "LinkContent"
+          ]
+        },
+        {
+          "from": "@/components/sidebar",
+          "kind": "import",
+          "imported": [
+            "Sidebar"
+          ]
+        },
+        {
+          "from": "@/components/site-footer",
+          "kind": "import",
+          "imported": [
+            "SiteFooter"
+          ]
+        },
+        {
+          "from": "@/components/site-header",
+          "kind": "import",
+          "imported": [
+            "SiteHeader"
+          ]
+        },
+        {
+          "from": "react",
+          "kind": "import",
+          "imported": [
+            "useState"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        },
+        {
+          "from": "framer-motion",
+          "kind": "import",
+          "imported": [
+            "AnimatePresence",
+            "motion"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "IndexPage",
+          "params": [],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/link-content.tsx": {
+      "imports": [
+        {
+          "from": "next/image",
+          "kind": "import",
+          "isDefault": true
+        },
+        {
+          "from": "next/link",
+          "kind": "import",
+          "isDefault": true
+        },
+        {
+          "from": "@/components/ui/card-hover-effect",
+          "kind": "import",
+          "imported": [
+            "HoverEffect"
+          ]
+        },
+        {
+          "from": "@/stores",
+          "kind": "import",
+          "imported": [
+            "useConfigStore"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "LinkContent",
+          "params": [],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/sidebar.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "imported": [
+            "useEffect",
+            "useState"
+          ]
+        },
+        {
+          "from": "framer-motion",
+          "kind": "import",
+          "imported": [
+            "AnimatePresence",
+            "motion"
+          ]
+        },
+        {
+          "from": "@/stores",
+          "kind": "import",
+          "imported": [
+            "useConfigStore"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "Sidebar",
+          "params": [
+            {
+              "name": "unknown",
+              "type": "SidebarProps"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/site-footer.tsx": {
+      "imports": [],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "SiteFooter",
+          "params": [],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/site-header/components/icons.tsx": {
+      "imports": [
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "LucideProps",
+            "Moon",
+            "SunMedium",
+            "Twitter",
+            "LucideIcon"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "Icons",
+          "initKind": "object",
+          "isExported": true
+        }
+      ]
+    },
+    "components/site-header/components/setting-dialog.tsx": {
+      "imports": [
+        {
+          "from": "@/components/ui/button",
+          "kind": "import",
+          "imported": [
+            "Button"
+          ]
+        },
+        {
+          "from": "@/components/ui/dialog",
+          "kind": "import",
+          "imported": [
+            "Dialog",
+            "DialogContent",
+            "DialogDescription",
+            "DialogFooter",
+            "DialogHeader",
+            "DialogTitle",
+            "DialogTrigger"
+          ]
+        },
+        {
+          "from": "@/components/ui/input",
+          "kind": "import",
+          "imported": [
+            "Input"
+          ]
+        },
+        {
+          "from": "@/components/ui/label",
+          "kind": "import",
+          "imported": [
+            "Label"
+          ]
+        },
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "Settings",
+            "Trash2",
+            "PlusCircle",
+            "RotateCcw"
+          ]
+        },
+        {
+          "from": "@/stores",
+          "kind": "import",
+          "imported": [
+            "useConfigStore",
+            "NavCategory",
+            "NavLinkItem",
+            "initialNavData"
+          ]
+        },
+        {
+          "from": "react",
+          "kind": "import",
+          "imported": [
+            "useState",
+            "useEffect"
+          ]
+        },
+        {
+          "from": "@/components/ui/accordion",
+          "kind": "import",
+          "imported": [
+            "Accordion",
+            "AccordionContent",
+            "AccordionItem",
+            "AccordionTrigger"
+          ]
+        },
+        {
+          "from": "@/components/ui/scroll-area",
+          "kind": "import",
+          "imported": [
+            "ScrollArea"
+          ]
+        },
+        {
+          "from": "@/components/ui/use-toast",
+          "kind": "import",
+          "imported": [
+            "useToast"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "SettingDialog",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "components/site-header/components/theme-toggle.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "Moon",
+            "Sun"
+          ]
+        },
+        {
+          "from": "next-themes",
+          "kind": "import",
+          "imported": [
+            "useTheme"
+          ]
+        },
+        {
+          "from": "@/components/ui/button",
+          "kind": "import",
+          "imported": [
+            "Button"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "ThemeToggle",
+          "params": [],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/site-header/index.tsx": {
+      "imports": [
+        {
+          "from": "next/link",
+          "kind": "import",
+          "isDefault": true
+        },
+        {
+          "from": "react",
+          "kind": "import",
+          "imported": [
+            "useCallback",
+            "useState"
+          ]
+        },
+        {
+          "from": "@/config/site",
+          "kind": "import",
+          "imported": [
+            "siteConfig"
+          ]
+        },
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "Circle",
+            "Laptop",
+            "Moon",
+            "Sun",
+            "Menu"
+          ]
+        },
+        {
+          "from": "next-themes",
+          "kind": "import",
+          "imported": [
+            "useTheme"
+          ]
+        },
+        {
+          "from": "@radix-ui/react-dialog",
+          "kind": "import",
+          "imported": [
+            "DialogTitle"
+          ]
+        },
+        {
+          "from": "@/components/ui/button",
+          "kind": "import",
+          "imported": [
+            "Button"
+          ]
+        },
+        {
+          "from": "@/components/ui/command",
+          "kind": "import",
+          "imported": [
+            "CommandDialog",
+            "CommandEmpty",
+            "CommandGroup",
+            "CommandInput",
+            "CommandItem",
+            "CommandList",
+            "CommandSeparator"
+          ]
+        },
+        {
+          "from": "./components/icons",
+          "kind": "import",
+          "imported": [
+            "Icons"
+          ]
+        },
+        {
+          "from": "./components/theme-toggle",
+          "kind": "import",
+          "imported": [
+            "ThemeToggle"
+          ]
+        },
+        {
+          "from": "@/stores",
+          "kind": "import",
+          "imported": [
+            "useConfigStore"
+          ]
+        },
+        {
+          "from": "./components/setting-dialog",
+          "kind": "import",
+          "isDefault": true
+        }
+      ],
+      "dependencies": [
+        "components/site-header/components/icons.tsx",
+        "components/site-header/components/setting-dialog.tsx",
+        "components/site-header/components/theme-toggle.tsx"
+      ],
+      "functions": [
+        {
+          "name": "SiteHeader",
+          "params": [
+            {
+              "name": "unknown",
+              "type": "SiteHeaderProps"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/theme-provider.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "next-themes",
+          "kind": "import",
+          "imported": [
+            "NextThemesProvider"
+          ]
+        },
+        {
+          "from": "next-themes/dist/types",
+          "kind": "import",
+          "imported": [
+            "ThemeProviderProps"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "ThemeProvider",
+          "params": [
+            {
+              "name": "unknown",
+              "type": "ThemeProviderProps"
+            }
+          ],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/ui/accordion.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@radix-ui/react-accordion",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "ChevronDown"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "Accordion",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "AccordionItem",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "AccordionTrigger",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "AccordionContent",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/button.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@radix-ui/react-slot",
+          "kind": "import",
+          "imported": [
+            "Slot"
+          ]
+        },
+        {
+          "from": "class-variance-authority",
+          "kind": "import",
+          "imported": [
+            "cva",
+            "VariantProps"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "buttonVariants",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "Button",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/card-hover-effect.tsx": {
+      "imports": [
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        },
+        {
+          "from": "framer-motion",
+          "kind": "import",
+          "imported": [
+            "AnimatePresence",
+            "motion"
+          ]
+        },
+        {
+          "from": "next/image",
+          "kind": "import",
+          "isDefault": true
+        },
+        {
+          "from": "next/link",
+          "kind": "import",
+          "isDefault": true
+        },
+        {
+          "from": "react",
+          "kind": "import",
+          "imported": [
+            "useState"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "HoverEffect",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "Card",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "CardTitle",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "CardDescription",
+          "initKind": "function",
+          "isExported": true
+        }
+      ]
+    },
+    "components/ui/command.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@radix-ui/react-dialog",
+          "kind": "import",
+          "imported": [
+            "DialogProps"
+          ]
+        },
+        {
+          "from": "cmdk",
+          "kind": "import",
+          "imported": [
+            "CommandPrimitive"
+          ]
+        },
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "Search"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        },
+        {
+          "from": "@/components/ui/dialog",
+          "kind": "import",
+          "imported": [
+            "Dialog",
+            "DialogContent"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "Command",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "CommandDialog",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "CommandInput",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "CommandList",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "CommandEmpty",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "CommandGroup",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "CommandSeparator",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "CommandItem",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "CommandShortcut",
+          "initKind": "function",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/dialog.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@radix-ui/react-dialog",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "X"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "Dialog",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "DialogTrigger",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "DialogPortal",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "DialogClose",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "DialogOverlay",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "DialogContent",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "DialogHeader",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "DialogFooter",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "DialogTitle",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "DialogDescription",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/input.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "Input",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/label.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@radix-ui/react-label",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "class-variance-authority",
+          "kind": "import",
+          "imported": [
+            "cva",
+            "VariantProps"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "labelVariants",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "Label",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/scroll-area.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@radix-ui/react-scroll-area",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "ScrollArea",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "ScrollBar",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/toast.tsx": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@radix-ui/react-toast",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "class-variance-authority",
+          "kind": "import",
+          "imported": [
+            "cva",
+            "VariantProps"
+          ]
+        },
+        {
+          "from": "lucide-react",
+          "kind": "import",
+          "imported": [
+            "X"
+          ]
+        },
+        {
+          "from": "@/lib/utils",
+          "kind": "import",
+          "imported": [
+            "cn"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "ToastProvider",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "ToastViewport",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "toastVariants",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "Toast",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "ToastAction",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "ToastClose",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "ToastTitle",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "ToastDescription",
+          "initKind": "unknown",
+          "isExported": false
+        }
+      ]
+    },
+    "components/ui/toaster.tsx": {
+      "imports": [
+        {
+          "from": "@/components/ui/toast",
+          "kind": "import",
+          "imported": [
+            "Toast",
+            "ToastClose",
+            "ToastDescription",
+            "ToastProvider",
+            "ToastTitle",
+            "ToastViewport"
+          ]
+        },
+        {
+          "from": "@/components/ui/use-toast",
+          "kind": "import",
+          "imported": [
+            "useToast"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "Toaster",
+          "params": [],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "components/ui/use-toast.ts": {
+      "imports": [
+        {
+          "from": "react",
+          "kind": "import",
+          "isNamespace": true
+        },
+        {
+          "from": "@/components/ui/toast",
+          "kind": "import",
+          "imported": [
+            "ToastActionElement",
+            "ToastProps"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "genId",
+          "params": [],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "dispatch",
+          "params": [
+            {
+              "name": "action",
+              "type": "Action"
+            }
+          ],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "toast",
+          "params": [
+            {
+              "name": "unknown",
+              "type": "Toast"
+            }
+          ],
+          "isAsync": false,
+          "isExported": false
+        },
+        {
+          "name": "useToast",
+          "params": [],
+          "isAsync": false,
+          "isExported": false
+        }
+      ],
+      "classes": [],
+      "constants": [
+        {
+          "name": "TOAST_LIMIT",
+          "initKind": "literal",
+          "isExported": false
+        },
+        {
+          "name": "TOAST_REMOVE_DELAY",
+          "initKind": "literal",
+          "isExported": false
+        },
+        {
+          "name": "actionTypes",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "toastTimeouts",
+          "initKind": "unknown",
+          "isExported": false
+        },
+        {
+          "name": "addToRemoveQueue",
+          "initKind": "function",
+          "isExported": false
+        },
+        {
+          "name": "reducer",
+          "initKind": "function",
+          "isExported": true
+        },
+        {
+          "name": "listeners",
+          "initKind": "array",
+          "isExported": false,
+          "type": "Array<(state: State) => void>"
+        }
+      ]
+    },
+    "config/site.ts": {
+      "imports": [],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "siteConfig",
+          "initKind": "object",
+          "isExported": true
+        },
+        {
+          "name": "NavData",
+          "initKind": "array",
+          "isExported": true,
+          "type": "NavData[]"
+        }
+      ]
+    },
+    "lib/fonts.ts": {
+      "imports": [
+        {
+          "from": "next/font/google",
+          "kind": "import",
+          "imported": [
+            "FontMono",
+            "FontSans"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "fontSans",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "fontMono",
+          "initKind": "unknown",
+          "isExported": true
+        }
+      ]
+    },
+    "lib/utils.ts": {
+      "imports": [
+        {
+          "from": "clsx",
+          "kind": "import",
+          "imported": [
+            "clsx",
+            "ClassValue"
+          ]
+        },
+        {
+          "from": "tailwind-merge",
+          "kind": "import",
+          "imported": [
+            "twMerge"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [
+        {
+          "name": "cn",
+          "params": [
+            {
+              "name": "inputs",
+              "type": "ClassValue[]",
+              "rest": true
+            }
+          ],
+          "isAsync": false,
+          "isExported": true
+        }
+      ],
+      "classes": [],
+      "constants": []
+    },
+    "next-env.d.ts": {
+      "imports": [],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "next.config.ts": {
+      "imports": [
+        {
+          "from": "next",
+          "kind": "import",
+          "imported": [
+            "NextConfig"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "nextConfig",
+          "initKind": "object",
+          "isExported": false,
+          "type": "NextConfig"
+        }
+      ]
+    },
+    "stores/index.ts": {
+      "imports": [
+        {
+          "from": "./useConfigStore",
+          "kind": "export"
+        }
+      ],
+      "dependencies": [
+        "stores/useConfigStore.ts"
+      ],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "stores/useConfigStore.ts": {
+      "imports": [
+        {
+          "from": "@/config/site",
+          "kind": "import",
+          "imported": [
+            "DefaultNavConfig"
+          ]
+        },
+        {
+          "from": "zustand",
+          "kind": "import",
+          "imported": [
+            "create"
+          ]
+        },
+        {
+          "from": "zustand/middleware",
+          "kind": "import",
+          "imported": [
+            "createJSONStorage",
+            "persist"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": [
+        {
+          "name": "initialNavData",
+          "initKind": "unknown",
+          "isExported": true
+        },
+        {
+          "name": "useConfigStore",
+          "initKind": "unknown",
+          "isExported": true
+        }
+      ]
+    },
+    "tailwind.config.ts": {
+      "imports": [
+        {
+          "from": "tailwindcss",
+          "kind": "import",
+          "imported": [
+            "Config"
+          ]
+        },
+        {
+          "from": "tailwindcss/defaultTheme",
+          "kind": "import",
+          "imported": [
+            "fontFamily"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    },
+    "types/nav.ts": {
+      "imports": [],
+      "dependencies": [],
+      "functions": [],
+      "classes": [],
+      "constants": []
+    }
+  }
+}
