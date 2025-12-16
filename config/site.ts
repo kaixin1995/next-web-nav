@@ -79,10 +79,10 @@ export const NavData: NavData[] = [
         link: "https://gemini.google.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1754218571142.svg",
-        title: "DeepSeek - 探索未至之境",
-        desc: "深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
-        link: "https://chat.deepseek.com/"
+        icon: "https://dh.leti.ltd/assets/img_1739871936809.png",
+        title: "perplexity",
+        desc: "一个人工智能助手，旨在为您提供信息、解答问题和帮助您完成各种任务。",
+        link: "https://www.perplexity.ai/"
       },
       {
         icon: "https://dh.leti.ltd/assets/favicon_1759046289851.png",
@@ -97,16 +97,16 @@ export const NavData: NavData[] = [
         link: "https://v0.app/"
       },
       {
+        icon: "https://dh.leti.ltd/assets/favicon_1754218571142.svg",
+        title: "DeepSeek - 探索未至之境",
+        desc: "深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
+        link: "https://chat.deepseek.com/"
+      },
+      {
         icon: "https://dh.leti.ltd/assets/images/logos/poe.svg",
         title: "Poe",
         desc: "Poe一款由Quora开发的应用程序。该应用程序集成了多种生成式人工智能，可使用户能够便利切换，比较和使用市场上主流的大型语言模型。",
         link: "https://poe.com/"
-      },
-      {
-        icon: "https://dh.leti.ltd/assets/img_1739871936809.png",
-        title: "perplexity",
-        desc: "一个人工智能助手，旨在为您提供信息、解答问题和帮助您完成各种任务。",
-        link: "https://www.perplexity.ai/"
       }
     ]
   },
@@ -122,7 +122,7 @@ export const NavData: NavData[] = [
       {
         icon: "https://dh.leti.ltd/assets/images/logos/claude.png",
         title: "Claude code",
-        desc: "Unleash Claude’s raw power directly in your terminal. Search million-line codebases instantly. Turn hours-long workflows into a single command. Your tools. Your workflow. Your codebase, evolving at thought speed.",
+        desc: "Claude 是由 Anthropic 公司开发的 AI 助手，以其乐于助人、无害且真诚的对话能力而闻名。提供免费版本。",
         link: "https://www.anthropic.com/claude-code"
       },
       {
@@ -275,6 +275,17 @@ export const NavData: NavData[] = [
         title: "沉浸式翻译",
         desc: "网页、PDF 文档、电子书以及视频字幕，双语翻译，体验极佳！",
         link: "https://immersivetranslate.com/zh-Hans/"
+      }
+    ]
+  },
+  {
+    title: "工具网站",
+    items: [
+      {
+        icon: "https://tonglema.com/favicon/favicon.ico",
+        title: "TongLeMa (通了吗) ",
+        desc: "TongLeMa (通了吗) 是一个开源的网络连通性检测仪表板，帮助用户快速实时检测多个热门全球服务的延迟和连通状态。",
+        link: "https://tonglema.com/"
       }
     ]
   },
