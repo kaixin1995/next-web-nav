@@ -44,13 +44,13 @@ export const NavData: NavData[] = [
         link: "https://www.cloudflare.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/images/logos/vercel.png",
+        icon: "https://assets.vercel.com/image/upload/front/favicon/vercel/apple-touch-icon-57x57.png",
         title: "Vercel👍",
         desc: "Vercel 提供开发者工具和云基础设施，帮助构建、扩展和保护更快、更个性化的网络应用。",
         link: "https://vercel.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1764304640963.png",
+        icon: "https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png",
         title: "Google 云端硬盘",
         desc: "使用 Google 账号（个人用途）或 Google Workspace 账号（企业用途）访问 Google 云端硬盘。",
         link: "https://drive.google.com/"
@@ -61,49 +61,49 @@ export const NavData: NavData[] = [
     title: "AI Chat",
     items: [
       {
-        icon: "https://dh.leti.ltd/assets/images/logos/chatgpt.png",
+        icon: "https://chatgpt.com/cdn/assets/favicon-eex17e9e.ico",
         title: "ChatGPT",
         desc: "OpenAI开发的人工智能聊天机器人程序。",
         link: "https://chat.openai.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/img_1752662771107.png",
+        icon: "https://claude.ai/favicon.ico",
         title: "Claude",
         desc: "Anthropic开发的AI助手，擅长分析和创作。",
         link: "https://claude.ai/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/images/logos/gemini.svg",
+        icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
         title: "Gemini",
         desc: "Google开发的生成式人工智能聊天机器人。它基于同名的Gemini系列大型语言模型。",
         link: "https://gemini.google.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/img_1739871936809.png",
+        icon: "https://www.perplexity.ai/favicon.ico",
         title: "perplexity",
         desc: "一个人工智能助手，旨在为您提供信息、解答问题和帮助您完成各种任务。",
         link: "https://www.perplexity.ai/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1759046289851.png",
+        icon: "https://grok.com/images/favicon-light.png",
         title: "Grok",
         desc: "Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time search, image generation, trend analysis, and more.",
         link: "https://grok.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1760513560381.png",
+        icon: "https://v0.app/assets/icon-light-32x32.png",
         title: "v0 by Vercel",
         desc: "Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web.",
         link: "https://v0.app/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1754218571142.svg",
+        icon: "https://chat.deepseek.com/favicon.svg",
         title: "DeepSeek - 探索未至之境",
         desc: "深度求索（DeepSeek）助力编程代码开发、创意写作、文件处理等任务，支持文件上传及长文本对话，随时为您提供高效的AI支持。",
         link: "https://chat.deepseek.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/images/logos/poe.svg",
+        icon: "https://psc2.cf2.poecdn.net/assets/apple-touch-icon.png",
         title: "Poe",
         desc: "Poe一款由Quora开发的应用程序。该应用程序集成了多种生成式人工智能，可使用户能够便利切换，比较和使用市场上主流的大型语言模型。",
         link: "https://poe.com/"
@@ -114,13 +114,13 @@ export const NavData: NavData[] = [
     title: "AI Coding",
     items: [
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1760422969029.ico",
+        icon: "https://openai.com/favicon.ico",
         title: "Codex | OpenAI",
         desc: "Codex 是 OpenAI 推出的一系列人工智能编码工具，通过将任务委托给强大的云端和本地编码代理，帮助开发人员提升工作效率。",
         link: "https://openai.com/zh-Hans-CN/codex/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/images/logos/claude.png",
+        icon: "https://claude.ai/favicon.ico",
         title: "Claude code",
         desc: "Claude 是由 Anthropic 公司开发的 AI 助手，以其乐于助人、无害且真诚的对话能力而闻名。提供免费版本。",
         link: "https://www.anthropic.com/claude-code"
@@ -138,13 +138,13 @@ export const NavData: NavData[] = [
         link: "https://www.minimaxi.com/news/minimax-m2"
       },
       {
-        icon: "https://dh.leti.ltd/assets/img_1737529713172.png",
+        icon: "https://cursor.com/marketing-static/favicon.ico",
         title: "Cursor",
         desc: "The AI Code Editor Built to make you extraordinarily productive, Cursor is the best way to code with AI.",
         link: "https://www.cursor.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/img_1737530043708.png",
+        icon: "https://github.githubassets.com/favicons/favicon.svg",
         title: "GitHub Copilot",
         desc: "The AI editor for everyone",
         link: "https://github.com/features/copilot"
@@ -155,7 +155,7 @@ export const NavData: NavData[] = [
     title: "MCP Server",
     items: [
       {
-        icon: "https://dh.leti.ltd/assets/img_1752554273115.png",
+        icon: "https://smithery.ai/icon.svg?icon.2e4c651c.svg",
         title: "MCP Server 集合站",
         desc: "各种各样的 MCP Server",
         link: "https://smithery.ai/"
@@ -166,7 +166,7 @@ export const NavData: NavData[] = [
     title: "域名",
     items: [
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1754295511938.ico",
+        icon: "https://www.namecheap.com/assets/img/nc-icon/favicon.ico",
         title: "namecheap",
         desc: "Register domain names at Namecheap. Buy cheap domain names and enjoy 24/7 support. With over 18 million domains under management, you know you’re in good hands.",
         link: "https://www.namecheap.com/"
@@ -219,13 +219,13 @@ export const NavData: NavData[] = [
         link: "https://www.cloudflare.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/images/logos/vercel.png",
+        icon: "https://assets.vercel.com/image/upload/front/favicon/vercel/apple-touch-icon-57x57.png",
         title: "Vercel👍",
         desc: "赛博菩萨，慷慨免费额度，一站式 Next.js 部署平台。",
         link: "https://vercel.com/"
       },
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1755225933031.ico",
+        icon: "https://edgeone.ai/favicon.ico",
         title: "Tencent -  EdgeOne亚洲最佳CDN、边缘和安全解决方案",
         desc: "Tencent EdgeOne，亚洲领先的CDN，利用腾讯先进的边缘节点提供卓越的边缘解决方案，用于加速、安全、无服务器和视频。",
         link: "https://edgeone.ai/zh"
@@ -293,7 +293,7 @@ export const NavData: NavData[] = [
     title: "知识库",
     items: [
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1760507241370.png",
+        icon: "https://free-for.dev/logo.webp",
         title: "Free for Developers",
         desc: "Developers and Open Source authors now have a massive amount of services offering free tiers, but it can be hard to find them all to make informed decisions.",
         link: "https://free-for.dev/#/"
@@ -316,7 +316,7 @@ export const NavData: NavData[] = [
     title: "社区",
     items: [
       {
-        icon: "https://dh.leti.ltd/assets/favicon_1761725100238.png",
+        icon: "https://www.redditstatic.com/shreddit/assets/favicon/192x192.png",
         title: "Reddit👍",
         desc: "Reddit 拥有超过 100,000 个 subreddit 社区，数百万用户在此聚集，讨论各自关心的话题。",
         link: "https://www.reddit.com/"
