@@ -79,7 +79,7 @@ export const NavData: NavData[] = [
         link: "https://gemini.google.com/"
       },
       {
-        icon: "https://www.perplexity.ai/favicon.ico",
+        icon: "https://ih1.redbubble.net/image.5663163473.1331/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
         title: "perplexity",
         desc: "一个人工智能助手，旨在为您提供信息、解答问题和帮助您完成各种任务。",
         link: "https://www.perplexity.ai/"
