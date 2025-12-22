@@ -343,6 +343,12 @@ export const NavData: NavData[] = [
         title: "Indie Hacker Tools",
         desc: "分享各种出海工具，让每个独立开发者都能开心赚美元！",
         link: "https://indiehackertools.net/"
+      },
+      {
+        icon: "https://china-ranking.32k.site/favicon.ico",
+        title: "中国区 GitHub 用户排行榜",
+        desc: "按照 Followers 数量排序，展示中国优秀个人开发者",
+        link: "https://china-ranking.32k.site/"
       }
     ]
   }
