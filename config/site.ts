@@ -63,19 +63,19 @@ export const NavData: NavData[] = [
       {
         icon: "https://chatgpt.com/cdn/assets/favicon-eex17e9e.ico",
         title: "ChatGPT",
-        desc: "OpenAI开发的人工智能聊天机器人程序。",
+        desc: "[OpenAI]A conversational AI system that listens, learns, and challenges",
         link: "https://chat.openai.com/"
       },
       {
         icon: "https://claude.ai/favicon.ico",
         title: "Claude",
-        desc: "Anthropic开发的AI助手，擅长分析和创作。",
+        desc: "[Anthropic] Talk with Claude, an AI assistant from Anthropic",
         link: "https://claude.ai/"
       },
       {
         icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
         title: "Gemini",
-        desc: "Google开发的生成式人工智能聊天机器人。它基于同名的Gemini系列大型语言模型。",
+        desc: "[Google]生成式人工智能聊天机器人。它基于同名的Gemini系列大型语言模型。",
         link: "https://gemini.google.com/"
       },
       {
@@ -126,6 +126,12 @@ export const NavData: NavData[] = [
         link: "https://www.anthropic.com/claude-code"
       },
       {
+        icon: "https://antigravity.google/assets/image/antigravity-logo.png",
+        title: "Google Antigravity",
+        desc: "Experience liftoff with the next-generation IDE",
+        link: "https://antigravity.google/"
+      },
+      {
         icon: "https://geminicli.com/icon.png",
         title: "Gemini CLI",
         desc: "Query and edit large codebases, generate apps from images or PDFs, and automate complex workflows—all from your terminal with Gemini 3.",
@@ -159,6 +165,18 @@ export const NavData: NavData[] = [
         title: "MCP Server 集合站",
         desc: "各种各样的 MCP Server",
         link: "https://smithery.ai/"
+      },
+      {
+        icon: "https://mcp.so/favicon.ico",
+        title: "MCP.so",
+        desc: "各种各样的 MCP Server",
+        link: "https://mcp.so/"
+      },
+      {
+        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        title: "yzfly/Awesome-MCP-ZH",
+        desc: "MCP 资源精选，MCP指南，Claude MCP，MCP Servers，MCP Clients",
+        link: "https://github.com/yzfly/Awesome-MCP-ZH/"
       }
     ]
   },
@@ -349,6 +367,12 @@ export const NavData: NavData[] = [
         title: "中国区 GitHub 用户排行榜",
         desc: "按照 Followers 数量排序，展示中国优秀个人开发者",
         link: "https://china-ranking.32k.site/"
+      },
+      {
+        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        title: "中文独立博客列表",
+        desc: "中文独立博客列表，中文圈著名的博客基本都在里面了。",
+        link: "https://github.com/timqian/chinese-independent-blogs/"
       }
     ]
   }
