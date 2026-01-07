@@ -114,14 +114,14 @@ export const NavData: NavData[] = [
     title: "AI Coding",
     items: [
       {
-        icon: "https://openai.com/favicon.ico",
-        title: "Codex | OpenAI",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjaQe-8AasL7r5xJiEwcTBPvjqrCk4N02LXA&s",
+        title: "Codex | OpenAI👍",
         desc: "Codex 是 OpenAI 推出的一系列人工智能编码工具，通过将任务委托给强大的云端和本地编码代理，帮助开发人员提升工作效率。",
         link: "https://openai.com/zh-Hans-CN/codex/"
       },
       {
         icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/1200px-Claude_AI_symbol.svg.png",
-        title: "Claude code",
+        title: "Claude Code👍",
         desc: "Claude 是由 Anthropic 公司开发的 AI 助手，以其乐于助人、无害且真诚的对话能力而闻名。提供免费版本。",
         link: "https://www.anthropic.com/claude-code"
       },
@@ -148,12 +148,6 @@ export const NavData: NavData[] = [
         title: "Cursor",
         desc: "The AI Code Editor Built to make you extraordinarily productive, Cursor is the best way to code with AI.",
         link: "https://www.cursor.com/"
-      },
-      {
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
-        title: "GitHub Copilot",
-        desc: "The AI editor for everyone",
-        link: "https://github.com/features/copilot"
       }
     ]
   },
@@ -181,12 +175,64 @@ export const NavData: NavData[] = [
     ]
   },
   {
+    title: "GitHub",
+    items: [
+      {
+        icon: "https://git-stars.org/favicon-180x180.png",
+        title: "GitHub 顶级仓库",
+        desc: "在 GitHub 上发现最受欢迎的仓库，按受欢迎程度排名",
+        link: "https://git-stars.org/"
+      },
+      {
+        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        title: "GitHub 中国区用户排行榜",
+        desc: "按照 Followers 数量排序，展示中国优秀个人开发者",
+        link: "https://china-ranking.32k.site/"
+      }
+    ]
+  },
+  {
+    title: "独立开发者导航",
+    items: [
+      {
+        icon: "https://indiehackertools.net/favicon-32x32.png",
+        title: "Indie Hacker Tools",
+        desc: "分享各种出海工具，让每个独立开发者都能开心赚美元！",
+        link: "https://indiehackertools.net/"
+      },
+      {
+        icon: "https://free.mkdirs.com/favicon-32x32.png",
+        title: "Indie Hacker Tools",
+        desc: "独立开发者导航站，发掘发掘最优秀的工具，助力你快速发布下一个应用！",
+        link: "https://free.mkdirs.com/zh"
+      },
+      {
+        icon: "https://indiehub.best/logo.png",
+        title: "IndieHub",
+        desc: "最好的独立开发者导航站，收录400+独立开发工具，支持开发者提交产品",
+        link: "https://indiehub.best/"
+      },
+      {
+        icon: "https://github.com/fluidicon.png",
+        title: "中国独立开发者项目列表",
+        desc: "作为开发者其实比较好奇其他人在做什么业余项目，所以特意建了这个库聚合所有中国独立开发者的项目。",
+        link: "https://github.com/1c7/chinese-independent-developer/"
+      },
+      {
+        icon: "https://raw.githubusercontent.com/kisslove/chinese-independent-developer-site/refs/heads/main/web/public/favicon.png",
+        title: "中国独立开发者项目列表(网页版)",
+        desc: "为了更好的展示开发者的项目/产品。",
+        link: "https://developer.hubing.online/home"
+      }
+    ]
+  },
+  {
     title: "域名",
     items: [
       {
         icon: "https://www.namecheap.com/assets/img/nc-icon/favicon.ico",
-        title: "namecheap",
-        desc: "Register domain names at Namecheap. Buy cheap domain names and enjoy 24/7 support. With over 18 million domains under management, you know you’re in good hands.",
+        title: "Namecheap",
+        desc: "专业域名注册与托管服务商，提供优惠域名注册、SSL证书与虚拟主机方案，助力品牌建立可信赖的在线形象，打造高效稳定的网站。",
         link: "https://www.namecheap.com/"
       },
       {
@@ -208,6 +254,12 @@ export const NavData: NavData[] = [
         link: "http://www.dynadot.com/"
       },
       {
+        icon: "https://digitalplat.org/wp-content/uploads/2024/05/logo.jpg",
+        title: "DigitalPlat Domain",
+        desc: "免费域名服务，提供像 *.DPDNS.ORG 或曾有的 *.US.KG 这样的免费子域名，让个人和组织能免费拥有自己的数字身份，无需支付域名费用，适合用于学习、个人项目或快速建站。",
+        link: "https://domain.digitalplat.org/"
+      },
+      {
         icon: "https://cdn.sanity.io/images/ntncowsx/production/2998c7a3456d62c027c60ea1bb95fdd934ac84bf-192x192.png?auto=format",
         title: "NameBeta",
         desc: "清晰对比不同域名商价格，帮你省钱。",
@@ -224,6 +276,18 @@ export const NavData: NavData[] = [
         title: "who.is",
         desc: "查询域名注册信息。",
         link: "https://who.is/"
+      },
+      {
+        icon: "https://query.domains/favicon-32x32.png",
+        title: "Query.Domains",
+        desc: "即时批量域名可用性检查工具。",
+        link: "https://query.domains/"
+      },
+      {
+        icon: "https://dns.fish/favicon.ico",
+        title: "DNS.fish",
+        desc: "即时 DNS 查询工具。使用我们开发者优先的工具，在毫秒内分析域名健康状况、验证 DNS 传播，并检查 DNS 记录（A、MX、NS、CNAME）。",
+        link: "https://dns.fish/"
       }
     ]
   },
@@ -244,7 +308,7 @@ export const NavData: NavData[] = [
       },
       {
         icon: "https://edgeone.ai/favicon.ico",
-        title: "Tencent -  EdgeOne亚洲最佳CDN、边缘和安全解决方案",
+        title: "Tencent -  EdgeOne",
         desc: "Tencent EdgeOne，亚洲领先的CDN，利用腾讯先进的边缘节点提供卓越的边缘解决方案，用于加速、安全、无服务器和视频。",
         link: "https://edgeone.ai/zh"
       },
@@ -273,43 +337,27 @@ export const NavData: NavData[] = [
       },
       {
         title: "Gitlab",
-        desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
+        desc: "GitLab 免费套餐提供无限量的私有仓库。",
         icon: "https://about.gitlab.com/images/ico/favicon.ico",
         link: "https://gitlab.com/"
       },
       {
-        title: "Bitbucket | Git solution for teams using Jira",
-        desc: "Code and CI/CD, powered by AI and the Atlassian platform",
+        title: "Bitbucket",
+        desc: "Bitbucket 免费账户可创建无限数量的私有代码库。",
         icon: "https://wac-cdn.atlassian.com/assets/img/favicons/bitbucket/favicon-16x16.png",
         link: "https://bitbucket.org/"
       }
     ]
   },
   {
-    title: "效率",
-    items: [
-      {
-        icon: "https://cdn.sanity.io/images/ntncowsx/production/87b99da372013e95152041f7e47d9457a6e4e65b-128x128.png?auto=format",
-        title: "沉浸式翻译",
-        desc: "网页、PDF 文档、电子书以及视频字幕，双语翻译，体验极佳！",
-        link: "https://immersivetranslate.com/zh-Hans/"
-      }
-    ]
-  },
-  {
-    title: "工具网站",
-    items: [
-      {
-        icon: "https://tonglema.com/favicon/favicon.ico",
-        title: "TongLeMa (通了吗) ",
-        desc: "TongLeMa (通了吗) 是一个开源的网络连通性检测仪表板，帮助用户快速实时检测多个热门全球服务的延迟和连通状态。",
-        link: "https://tonglema.com/"
-      }
-    ]
-  },
-  {
     title: "知识库",
     items: [
+      {
+        icon: "https://claudecode.tangshuang.net/favicon.svg",
+        title: "Claude Code 免费从入门到精通",
+        desc: "专为开发者打造的终极文档指南。从环境配置到构建自定义 AI 智能体，这套免费课程将帮助您掌握下一代编程工具，提升 3 倍开发效率。",
+        link: "https://claudecode.tangshuang.net/"
+      },
       {
         icon: "https://free-for.dev/logo.webp",
         title: "Free for Developers",
@@ -354,20 +402,60 @@ export const NavData: NavData[] = [
     ]
   },
   {
-    title: "其他导航",
+    title: "工具",
     items: [
       {
-        icon: "https://indiehackertools.net/favicon-32x32.png",
-        title: "Indie Hacker Tools",
-        desc: "分享各种出海工具，让每个独立开发者都能开心赚美元！",
-        link: "https://indiehackertools.net/"
+        icon: "https://tonglema.com/favicon/favicon.ico",
+        title: "TongLeMa (通了吗) ",
+        desc: "TongLeMa (通了吗) 是一个开源的网络连通性检测仪表板，帮助用户快速实时检测多个热门全球服务的延迟和连通状态。",
+        link: "https://tonglema.com/"
       },
       {
-        icon: "https://china-ranking.32k.site/favicon.ico",
-        title: "中国区 GitHub 用户排行榜",
-        desc: "按照 Followers 数量排序，展示中国优秀个人开发者",
-        link: "https://china-ranking.32k.site/"
+        icon: "https://cdn.sanity.io/images/ntncowsx/production/87b99da372013e95152041f7e47d9457a6e4e65b-128x128.png?auto=format",
+        title: "沉浸式翻译",
+        desc: "网页、PDF 文档、电子书以及视频字幕，双语翻译，体验极佳！",
+        link: "https://immersivetranslate.com/zh-Hans/"
+      }
+    ]
+  },
+  {
+    title: "AI 工具箱",
+    items: [
+      {
+        icon: "https://aixq.top/favicon.ico",
+        title: "AI星球",
+        desc: "AI星球是一款专注于人工智能领域的专业级 AI 导航网站，为用户集成全球热门与最新的 AI 工具与资源，帮助用户快速找到最适合的智能应用，提高工作效率与创作能力。",
+        link: "https://aixq.top/"
       },
+      {
+        icon: "https://www.ailookme.com/wp-content/uploads/2023/04/1234-1.png",
+        title: "AI工具箱",
+        desc: "人工智能领域工具导航网站",
+        link: "https://www.ailookme.com/"
+      },
+      {
+        icon: "https://www.aifly.tools/logo.png",
+        title: "最好的 AI 工具站",
+        desc: "适合超级个人的最佳新AI工具",
+        link: "https://www.aifly.tools/"
+      },
+      {
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScHs-6du6NlE14Qk5EheHw4y7NiCkGnoyQVA&s",
+        title: "AI With Me",
+        desc: "AI 导航站，现在是免费提交，自动化截图，站点信息 AI 汇总生成，Google 登录，仅收录 AI 产品",
+        link: "https://aiwith.me/"
+      },
+      {
+        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        title: "List of AI Directories",
+        desc: "An awesome list of best top AI directories to submit your ai tools",
+        link: "https://github.com/best-of-ai/ai-directories/"
+      }
+    ]
+  },
+  {
+    title: "其他导航",
+    items: [
       {
         icon: "https://github.githubassets.com/favicons/favicon.svg",
         title: "中文独立博客列表",
@@ -375,10 +463,10 @@ export const NavData: NavData[] = [
         link: "https://github.com/timqian/chinese-independent-blogs/"
       },
       {
-        icon: "https://aixq.top/favicon.ico",
-        title: "AI星球",
-        desc: "AI星球是一款专注于人工智能领域的专业级 AI 导航网站，为用户集成全球热门与最新的 AI 工具与资源，帮助用户快速找到最适合的智能应用，提高工作效率与创作能力。",
-        link: "https://aixq.top/"
+        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        title: "Chrome插件英雄榜",
+        desc: "🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~",
+        link: "https://github.com/zhaoolee/ChromeAppHeroes/"
       }
     ]
   }
