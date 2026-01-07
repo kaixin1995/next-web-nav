@@ -61,21 +61,21 @@ export const NavData: NavData[] = [
     title: "AI Chat",
     items: [
       {
-        icon: "https://chatgpt.com/cdn/assets/favicon-eex17e9e.ico",
-        title: "ChatGPT",
-        desc: "[OpenAI]A conversational AI system that listens, learns, and challenges",
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjaQe-8AasL7r5xJiEwcTBPvjqrCk4N02LXA&s",
+        title: "ChatGPT | OpenAI",
+        desc: "A conversational AI system that listens, learns, and challenges",
         link: "https://chat.openai.com/"
       },
       {
         icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/1200px-Claude_AI_symbol.svg.png",
-        title: "Claude",
-        desc: "[Anthropic] Talk with Claude, an AI assistant from Anthropic",
+        title: "Claude | Anthropic",
+        desc: "Talk with Claude, an AI assistant from Anthropic",
         link: "https://claude.ai/"
       },
       {
         icon: "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
-        title: "Gemini",
-        desc: "[Google]生成式人工智能聊天机器人。它基于同名的Gemini系列大型语言模型。",
+        title: "Gemini | Google",
+        desc: "生成式人工智能聊天机器人。它基于同名的Gemini系列大型语言模型。",
         link: "https://gemini.google.com/"
       },
       {
@@ -115,27 +115,27 @@ export const NavData: NavData[] = [
     items: [
       {
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjaQe-8AasL7r5xJiEwcTBPvjqrCk4N02LXA&s",
-        title: "Codex | OpenAI👍",
+        title: "Codex👍 | OpenAI",
         desc: "Codex 是 OpenAI 推出的一系列人工智能编码工具，通过将任务委托给强大的云端和本地编码代理，帮助开发人员提升工作效率。",
         link: "https://openai.com/zh-Hans-CN/codex/"
       },
       {
         icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/1200px-Claude_AI_symbol.svg.png",
-        title: "Claude Code👍",
+        title: "Claude Code👍 | Anthropic",
         desc: "Claude 是由 Anthropic 公司开发的 AI 助手，以其乐于助人、无害且真诚的对话能力而闻名。提供免费版本。",
         link: "https://www.anthropic.com/claude-code"
       },
       {
-        icon: "https://antigravity.google/assets/image/antigravity-logo.png",
-        title: "Google Antigravity",
-        desc: "Experience liftoff with the next-generation IDE",
-        link: "https://antigravity.google/"
-      },
-      {
         icon: "https://geminicli.com/icon.png",
-        title: "Gemini CLI",
+        title: "Gemini CLI | Google",
         desc: "Query and edit large codebases, generate apps from images or PDFs, and automate complex workflows—all from your terminal with Gemini 3.",
         link: "https://geminicli.com/"
+      },
+      {
+        icon: "https://antigravity.google/assets/image/antigravity-logo.png",
+        title: "Antigravity | Google",
+        desc: "Experience liftoff with the next-generation IDE",
+        link: "https://antigravity.google/"
       },
       {
         icon: "https://filecdn.minimax.chat/public/25289820-59cd-4365-9829-a3f32b365451.ico",
@@ -167,7 +167,7 @@ export const NavData: NavData[] = [
         link: "https://mcp.so/"
       },
       {
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        icon: "https://github.com/fluidicon.png",
         title: "yzfly/Awesome-MCP-ZH",
         desc: "MCP 资源精选，MCP指南，Claude MCP，MCP Servers，MCP Clients",
         link: "https://github.com/yzfly/Awesome-MCP-ZH/"
@@ -184,7 +184,7 @@ export const NavData: NavData[] = [
         link: "https://git-stars.org/"
       },
       {
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        icon: "https://github.com/fluidicon.png",
         title: "GitHub 中国区用户排行榜",
         desc: "按照 Followers 数量排序，展示中国优秀个人开发者",
         link: "https://china-ranking.32k.site/"
@@ -230,7 +230,7 @@ export const NavData: NavData[] = [
     title: "域名",
     items: [
       {
-        icon: "https://www.namecheap.com/assets/img/nc-icon/favicon.ico",
+        icon: "https://toppng.com/uploads/preview/namecheap-logo-11609369922hooobefgfj.png",
         title: "Namecheap",
         desc: "专业域名注册与托管服务商，提供优惠域名注册、SSL证书与虚拟主机方案，助力品牌建立可信赖的在线形象，打造高效稳定的网站。",
         link: "https://www.namecheap.com/"
@@ -446,7 +446,7 @@ export const NavData: NavData[] = [
         link: "https://aiwith.me/"
       },
       {
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        icon: "https://github.com/fluidicon.png",
         title: "List of AI Directories",
         desc: "An awesome list of best top AI directories to submit your ai tools",
         link: "https://github.com/best-of-ai/ai-directories/"
@@ -457,13 +457,13 @@ export const NavData: NavData[] = [
     title: "其他导航",
     items: [
       {
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        icon: "https://github.com/fluidicon.png",
         title: "中文独立博客列表",
         desc: "中文独立博客列表，中文圈著名的博客基本都在里面了。",
         link: "https://github.com/timqian/chinese-independent-blogs/"
       },
       {
-        icon: "https://github.githubassets.com/favicons/favicon.svg",
+        icon: "https://github.com/fluidicon.png",
         title: "Chrome插件英雄榜",
         desc: "🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~",
         link: "https://github.com/zhaoolee/ChromeAppHeroes/"
