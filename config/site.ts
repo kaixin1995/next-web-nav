@@ -64,7 +64,7 @@ export const NavData: NavData[] = [
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjaQe-8AasL7r5xJiEwcTBPvjqrCk4N02LXA&s",
         title: "ChatGPT | OpenAI",
         desc: "A conversational AI system that listens, learns, and challenges",
-        link: "https://chat.openai.com/"
+        link: "https://chatgpt.com/"
       },
       {
         icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/1200px-Claude_AI_symbol.svg.png",
@@ -107,6 +107,12 @@ export const NavData: NavData[] = [
         title: "Poe",
         desc: "Poe一款由Quora开发的应用程序。该应用程序集成了多种生成式人工智能，可使用户能够便利切换，比较和使用市场上主流的大型语言模型。",
         link: "https://poe.com/"
+      },
+      {
+        icon: "https://monica.im/logo.png",
+        title: "Monica",
+        desc: "针对每个网站推荐常用的 AI 工具，一点即用",
+        link: "https://monica.im/home"
       }
     ]
   },
@@ -272,10 +278,22 @@ export const NavData: NavData[] = [
         link: "https://domain.digitalplat.org/"
       },
       {
+        icon: "https://dns.fish/favicon.ico",
+        title: "DNS.fish",
+        desc: "即时 DNS 查询工具。使用我们开发者优先的工具，在毫秒内分析域名健康状况、验证 DNS 传播，并检查 DNS 记录（A、MX、NS、CNAME）。",
+        link: "https://dns.fish/"
+      },
+      {
         icon: "https://cdn.sanity.io/images/ntncowsx/production/2998c7a3456d62c027c60ea1bb95fdd934ac84bf-192x192.png?auto=format",
         title: "NameBeta",
         desc: "清晰对比不同域名商价格，帮你省钱。",
         link: "https://namebeta.com/"
+      },
+      {
+        icon: "https://zh-hans.tld-list.com/safari-pinned-tab.svg",
+        title: "TLD-LIST | 顶级域名列表",
+        desc: "比较所有顶级域名的价格，帮你省钱。",
+        link: "https://zh-hans.tld-list.com/"
       },
       {
         icon: "https://cdn.sanity.io/images/ntncowsx/production/b3a4194de501ba020a2a520474bcc29920d88d7c-192x192.webp?auto=format",
@@ -294,12 +312,6 @@ export const NavData: NavData[] = [
         title: "Query.Domains",
         desc: "即时批量域名可用性检查工具。",
         link: "https://query.domains/"
-      },
-      {
-        icon: "https://dns.fish/favicon.ico",
-        title: "DNS.fish",
-        desc: "即时 DNS 查询工具。使用我们开发者优先的工具，在毫秒内分析域名健康状况、验证 DNS 传播，并检查 DNS 记录（A、MX、NS、CNAME）。",
-        link: "https://dns.fish/"
       }
     ]
   },
@@ -350,7 +362,7 @@ export const NavData: NavData[] = [
       {
         title: "Gitlab",
         desc: "GitLab 免费套餐提供无限量的私有仓库。",
-        icon: "https://about.gitlab.com/images/ico/favicon.ico",
+        icon: "https://images.icon-icons.com/2699/PNG/512/gitlab_logo_icon_169112.png",
         link: "https://gitlab.com/"
       },
       {
@@ -462,6 +474,18 @@ export const NavData: NavData[] = [
         title: "List of AI Directories",
         desc: "An awesome list of best top AI directories to submit your ai tools",
         link: "https://github.com/best-of-ai/ai-directories/"
+      },
+      {
+        icon: "https://cdn.midday.ai/cursor/favicon.png",
+        title: "Cursor 规则使用指南",
+        desc: "The home for Cursor enthusiasts where you can explore and generate rules, browse MCPs, post and follow the latest news on the board, learn, connect, and discover jobs all in one place.",
+        link: "https://cursor.directory/"
+      },
+      {
+        icon: "https://www.aishort.top/img/logo.svg",
+        title: "AI Short",
+        desc: "精选 AI 提示词，让每次对话更高效",
+        link: "https://www.aishort.top/"
       }
     ]
   },
