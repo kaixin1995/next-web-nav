@@ -154,6 +154,12 @@ export const NavData: NavData[] = [
         title: "Cursor",
         desc: "The AI Code Editor Built to make you extraordinarily productive, Cursor is the best way to code with AI.",
         link: "https://www.cursor.com/"
+      },
+      {
+        icon: "https://www.buildwithclaude.com/favicon.ico?favicon.1b1e9ac9.ico",
+        title: "Build with Claude",
+        desc: "A collection of 400+ practical extensions to enhance your productivity across Claude.ai, Claude Code, and the Claude API.",
+        link: "https://www.buildwithclaude.com/"
       }
     ]
   },
@@ -250,13 +256,13 @@ export const NavData: NavData[] = [
       {
         icon: "https://toppng.com/uploads/preview/namecheap-logo-11609369922hooobefgfj.png",
         title: "Namecheap",
-        desc: "专业域名注册与托管服务商，提供优惠域名注册、SSL证书与虚拟主机方案，助力品牌建立可信赖的在线形象，打造高效稳定的网站。",
+        desc: "据说比较便宜",
         link: "https://www.namecheap.com/"
       },
       {
         icon: "https://www.namesilo.com/static/assets/img/logo.png",
         title: "NameSilo",
-        desc: "提供互联网上最低的日常域名价格",
+        desc: "提供互联网上最低的日常域名价格，自动屏蔽whois",
         link: "https://www.namesilo.com/"
       },
       {
