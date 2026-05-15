@@ -459,6 +459,12 @@ export const NavData: NavData[] = [
     title: "工具",
     items: [
       {
+        icon: "https://images.alans.site/file/s5Xq0K73.webp",
+        title: "Net.Coffee",
+        desc: "一个功能全面且免费的网络环境与 IP 风险检测工具箱。它常被用于检测和优化代理网络配置，特别是在解决海外 AI 工具（如 Claude、ChatGPT）的风控问题时非常实用。",
+        link: "https://ip.net.coffee/"
+      },
+      {
         icon: "https://images.alans.site/file/1769407297602_favicon.webp",
         title: "TongLeMa (通了吗) ",
         desc: "TongLeMa (通了吗) 是一个开源的网络连通性检测仪表板，帮助用户快速实时检测多个热门全球服务的延迟和连通状态。",
